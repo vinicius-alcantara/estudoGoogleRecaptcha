@@ -1,0 +1,298 @@
+@charset 'utf8';
+
+@font-face {
+font-family: 'bubble';
+src: url('../_fonts/bubblegum-sans-regular.otf');
+}
+
+#navmenu {
+    height: 175px;
+    background-color: #4169E1;
+    opacity: 0.9;
+}
+
+#bk-navmenu {
+    background: url('../imagens/terminal.gif') 100% 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: none;
+    height: 175px;
+}
+
+#navheader a h1 {
+    font-family: "bubble";
+    color: white;
+}
+
+#texto-dinamico {
+	margin-left: 740px;
+	width: 330px;
+	font-family: "bubble";
+        color: white;
+	font-size: 35px;
+	margin-top: -138px;
+        margin-right: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+}
+
+#texto-dinamico marquee{
+    display: block;
+    margin: 0px;
+}
+
+body{
+    background-color:  #000\9;
+}
+
+div#container-raiz{
+    margin: 70px auto 0px auto;
+    width: 400px;
+    border: 1px solid rgba(0,0,0, 0.3);
+    border-bottom: none;
+    border-top: none;
+}
+
+#titulo-login{
+    background-color: #4169E1;
+    color: white;
+    margin-top: 0px;
+    height: 80px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+#titulo-cad {
+    background-color: #4169E1;
+    margin-top: 0px;
+    height: 80px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+#titulo-login {
+    color: white;
+    text-align: center;
+}
+
+#formulario{
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin-bottom: 0px;
+    height: 400px;
+}
+
+#formulario-cad{
+    border: 1px solid rgba(0,0,0, 0.3);
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom: none;
+}
+
+#rodape{
+    box-sizing: border-box;
+    height: 90px;
+    background-color: #4169E1;
+    color: white;
+    width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Arial, sans-serif;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#formulario{
+    background: url("../imagens/user.png") no-repeat 100% 100%;
+    background-position: 78% 100%;
+}
+
+#captcha {
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity:0.5;
+    -webkit-opacity:0.5;
+}
+
+.btn-user {
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    padding: 6px 12px 7px 13px;
+}
+
+.input-user {
+    display: inline-block;
+}
+
+.p-titulo {
+    font-weight: bolder;
+}
+div#logo {
+    background: url("../imagens/Xcode-Deploy.png") no-repeat 100% 100%;
+    background-position: 30% 50%;
+    height: 175px;
+    width: 198px;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 200px;
+    margin-left: -28px;
+    border: none;
+    border-right: 1px solid black;
+}
+
+#logo span {
+    opacity: 0;
+}
+
+div#pinguin {
+    background: url("../imagens/pinguin.png") no-repeat 100% 100%;
+    height: 180px;
+    width: 130px;
+    box-sizing: border-box;
+    padding: 0px;
+    margin-left: 1040px;
+    margin-top: 0px;
+}
+
+#pinguin span {
+    opacity: 0;
+}
+
+.left-inner-addon {
+    position: relative;
+    float: left;
+}
+.left-inner-addon span {
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+    color: #666;
+}
+.left-inner-addon input.form-control {
+    padding-left: 44px;
+}
+
+.div-input {
+    margin-bottom: 0px;
+}
+.btn-pass {
+    border: none;
+    display: inline-block;
+    clear: both;
+}
+
+#eye {
+    background-color: transparent;
+}
+
+#rodape-pag {
+    background: url('../imagens/terminal.gif') 100% 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    border: none;
+    height: 200px;
+}
+
+#rodape-corpo {
+    background-color: #4169E1;
+    height: 200px;
+    opacity: 0.9;
+    border: none;
+}
+
+.info-rodape {
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    color: #00BFFF;
+    float: left;
+}
+
+.info-rodape ul {
+    list-style: none;
+    color: white;
+}
+
+.info-rodape ul h3{
+    text-align: left;
+}
+
+.info-rodape ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.info-rodape ul a:hover {
+    color: #00BFFF;
+}
+
+#copy {
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+
+#animated-text {
+    width: 350px;
+    height: 175px;
+    margin-left: 170px;
+    margin-top: 0px;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 55px;
+    padding-left: 15px;
+    border-left: 1px solid white;
+}
+
+#animated-text h1{
+    font-family: "bubble";
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#animated-text span{
+    border-right: .08em solid;
+    animation: caret 1s steps(1) infinite;
+    font-weight: bolder;
+}
+
+@keyframes caret {
+    50% {
+    border-color: transparent;
+  }
+}
+
+#text-load {
+    text-decoration: blink;
+    color: #4169E1;
+    font-family: "bubble";
+    text-align: center;
+    font-size: 38px;
+}
+
+#video-goku {
+    margin-top: 0px;
+}
+
+* {
+    cursor: url(http://cur.cursors-4u.net/special/spe-1/spe9.cur), auto !important;
+}
+

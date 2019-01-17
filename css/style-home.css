@@ -1,0 +1,55 @@
+@charset 'utf8';
+
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    display: none;
+   
+}
+
+#caixa-selecao {
+    display: block;
+    width: 400px;
+    margin: 82px auto 0px auto;
+    border: none;
+    box-sizing: border-box;
+   
+}
+
+#ca {
+    height: 80px;
+    background-color: #4169E1;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+#co {
+    box-sizing: border-box;
+    padding: 15px;
+    background: url("../imagens/engrenagem.png") no-repeat 10% 10%;
+    height: 400px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    border: none;
+    border: 1px solid rgba(0,0,0, 0.2);
+}
+
+#ro {
+    box-sizing: border-box;
+    padding: 15px;
+    margin: -20px auto 76px auto;
+    height: 90px;
+    background-color: #4169E1;
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 400px;
+}
